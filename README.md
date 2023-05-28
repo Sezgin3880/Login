@@ -17,3 +17,17 @@ The registration process starts by checking if the registration form has been su
 The hashed password is then stored in the database along with the user's username and email address using an SQL query. If the query is successful, the user is redirected to the login page. If the query fails, the user is redirected back to the registration page with an error message.
 
 Overall, this simple login system provides a secure way of storing user passwords in the database using bcrypt.
+
+## Requirements
+
+- PHP 7.0 or higher
+- MySQL 5.6 or higher
+- Apache or any web server that supports PHP
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/Sezgin3880/Blog.git`
+2. Import the SQL file `blogs   .sql` to create the necessary database and table.
+3. Update the database configuration in `config.php`.
+4. Start your web server and navigate to the directory where you cloned the repository.
+
